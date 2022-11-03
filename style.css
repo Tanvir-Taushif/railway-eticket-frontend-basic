@@ -1,0 +1,63 @@
+.nvCont{
+    box-shadow: 0px 1px 8px lightgray;
+}
+
+#burger-manu-button{
+    color: #089D49;
+}
+
+#topname{
+    color:#DA924E;
+}
+
+.nvList a{
+    color: black;
+}
+
+.trn-button{
+    border: none;
+    background-color: #006847;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
+.avTicketClass{
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(90deg,#426A5E,#76C8AF);
+    color: white;
+}
+
+.segment{
+    background-color: rgba(211, 211, 211, 0.793);
+    border-radius: 0px 0px 10px 10px;
+    color: #42695A;
+}
+
+.logUser{
+    color: white;
+    background-image: linear-gradient(90deg,#CE935C,#F5BB86);
+    border-radius: 10px 10px 0px 0px;
+    height: 70px;
+}
+
+.instruction{
+    color: #006847;
+    font-weight: 600;
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #006847;
+}
+
+.footer{
+    color: #006847;
+    background-color: #F6F9FF;
+}
+
+.orCol{
+    color: #DA924E;
+}

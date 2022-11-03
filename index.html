@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="images/railLogo.png" type="image/x-icon">
+   <!-- Fontawesome Kit -->
+   <script src="https://kit.fontawesome.com/87c1c58982.js" crossorigin="anonymous"></script>
+   <!-- Bootstrap CSS Link -->
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <!-- Custom CSS Link -->
+   <link rel="stylesheet" href="style.css">
+    <title>Bangladesh Railway E-Ticketing Service</title>
+</head>
+<body>
+   <!-- Navbar  -->
+        <div class="nvCont">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <div class="d-flex">
+                            <div class="mx-3">
+                                <img height="70px" width="60px" src="images/railLogo.png" alt="">
+                            </div>
+                            <div id="topname">
+                                <h4 class="fw-bold">Bangladesh</h4><h4 class="fw-bold">Railway</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><i id="burger-manu-button" class="fa-solid fa-bars"></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="nvList navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Train Information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                           
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- 1st Section -->
+        <div class="container mt-5">
+            <div class="container px-4">
+                <div class="row gx-5">
+                  <div class="col-lg-6 col-sm-12">
+                        <div class="p-3">
+                                <div class="overflow-hidden">
+                                    <div class="row gy-2">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="p-2">
+                                            <p class="fw-bold">From</p>
+                                            <input class="w-100" type="text" placeholder="From Station">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="p-2">
+                                            <p class="fw-bold">To</p>
+                                            <input class="w-100" type="text" placeholder="To Station">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="p-2">
+                                            <p class="fw-bold">Date of journey</p>
+                                            <input class="w-100" type="date" name="" id="" onfocus="(this.type='Pick a date')"">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="p-2">
+                                            <p class="fw-bold">Choose Class</p>
+                                            <select class="w-100" name="" id="">
+                                                <option value="">
+                                                    Choose a class
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                         </div>
+                         <button class="trn-button w-100 my-2 fw-bold">SEARCH TRAINS</button>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="p-3">
+                        <img class="w-100" src="images/topImage.PNG" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="container">
+            <h5 class="text-center my-4">Last Update On 03/11/2022 22:50</h5>
+            <div class="container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col-lg-6 sol-sm-12">
+                   <div class="p-3 container">
+                        <div class="d-flex justify-content-between avTicketClass">
+                            <div class="m-3">
+                                <h5 class="fw-bold">Available Tickets<sup>*</sup></h5>
+                            </div>
+                            <div class="m-3">
+                                <p class="fw-bold">03/11/2022</p>
+                            </div>
+                        </div>
+                        <div class="text-center d-flex justify-content-center segment">
+                            <div class="px-1">
+                                <h6>Combined Tickets</h6>
+                                <h6>(Online & Offline)</h6>
+                            </div>
+                            <div class="px-1">
+                                <h2>65024</h2>
+                            </div>
+                        </div>
+                   </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="p-3">
+                        <div>
+                            <h5 class="fw-bold logUser p-3">
+                                <i class="fa-regular fa-user"></i> Logged In Users
+                            </h5>
+                        </div>
+                        <div class="segment text-center d-flex justify-content-center">
+                            <div class="px-1 p-2">
+                                <h6>Web & App</h6>
+                            </div>
+                            <div class="px-1">
+                                <h2>65024</h2>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- 3 Section -->
+        <div class="container px-4 my-5">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-sm-12">
+               <div class="p-3">
+                <div class="text-center">
+                    <img height="200px" width="200px" src="images/search.PNG" alt="">
+                </div>
+                <h3 class="fw-bold">Search</h3>
+                <p>Choose your origin, destination, journey dates and search for trains</p>
+               </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="p-3">
+                 <div class="text-center">
+                    <img height="200px" width="200px" src="images/select.PNG" alt="">
+                 </div>
+                 <h3 class="fw-bold">Select</h3>
+                <p>Select your desired trip and choose your seats</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="p-3">
+                    <div class="text-center">
+                        <img height="200px" width="200px" src="images/pay.PNG" alt="">
+                    </div>
+                    <h3 class="fw-bold">Pay</h3>
+                    <p>Pay for the tickets via Debit / Credit Cards or MFS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- instructions -->
+          <div class="container px-4 instruction">
+            <div class="row gx-5">
+              <div class="col-lg-6 col-sm-12">
+               <div class="p-3">
+                <div class="text-center">
+                    <img height="450px" width="500px" src="images/instructions.PNG" alt="">
+                </div>
+               </div>
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <div class="p-3">
+                    <h3>Instructions to purchase tickets</h3>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> Tickets can be bought online five days in advance.</p><br>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> You can pay for the tickets using mobile financial services: bKash, Nagad, Rocket or debit/credit cards: Mastercard, Visa, DBBL Nexus. Other payment options will be available soon.</p><br>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> In case of payment or transaction failure, the deducted amount would be refunded by your bank or MFS provider within 8 business days.</p><br>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> If you have not received your ticket copy in email, kindly check your Spam / Junk folder. You can also download your ticket copy from the purchase history of your account after you login.</p><br>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> Download the official Rail Sheba app published by Bangladesh Railway from Google Play.</p><br>
+                    <p><i class="fa-solid fa-circle-arrow-right"></i> In case of passengers downloading fake apps or any other app from Google Play which claim to sell train tickets of Bangladesh Railway, the authorities will not take any liability.</p><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <div class="text-center">
+            <div class="container px-4 w-50">
+                <div class="row gx-5">
+                  <div class="col-lg-2 col-sm-12">
+                   <div>
+                    <img src="images/bkash.PNG" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-12">
+                   <div>
+                    <img src="images/nagad.PNG" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-12">
+                   <div >
+                    <img src="images/rocket.PNG" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-12">
+                   <div >
+                    <img src="images/mastercard.PNG" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-12">
+                   <div >
+                    <img src="images/visa.PNG" alt="">
+                   </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-12">
+                   <div >
+                    <img src="images/dbblNexus.PNG" alt="">
+                   </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <hr>
+
+          <div class="container w-75 text-center">
+            <p class="fw-bold"><small><sup>*</sup>The Tickets are issued by Bangladesh Railway’s Centrally Computerized Seat Reservation & Ticketing System (CCSRTS) and Shohoz-Synesis-Vincen JV is responsible for designing, development, implementation, technical operation & maintenance of the system.</small></p>
+          </div>
+
+          <!-- Footer -->
+          <div class="footer">
+            <div class="line"></div>
+            <div>
+                <div class="container px-4">
+                    <div class="row gx-5">
+                      <div class="col-lg-4 col-sm-12">
+                       <div>
+                        <div class="d-flex mt-3 justify-content-center align-items-center">
+                            <div>
+                                <img src="images/railLogo.png" height="60px" width="60px" alt="">
+                            </div>
+                            <div >
+                                <h3 class="fw-bold orCol">Bangladesh Railway</h3>
+                                <p>নিরাপদ . আরামদায়ক . সাশ্রয়ী</p>
+                            </div>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-12">
+                       <div class="text-center mt-5">
+                        <p class="fw-bold">Terms and Conditions । Privacy Policy</p>
+                       </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-12">
+                       <div class="d-flex justify-content-center">
+                            <div class="mt-3">
+                                <div>
+                                    <p class="fw-bold">
+                                        Powered by
+                                    </p>
+                                    <h4 class="fw-bold" >Shohoj-Synesis-Vincen JV</h4>
+                                </div>
+                            </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
